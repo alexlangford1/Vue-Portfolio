@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+html,
+* {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home {
+    height: 100vh;
+    background-image: url("../src/assets/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.main-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    background: rgba(3, 3, 3, 0.575);
+}
+
+.title {
+    color: #fff;
+    font-size: 2.5rem;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 15px 30px;
+    letter-spacing: 8px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 30vh;
+}
+
+.subtitle {
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    letter-spacing: 4px;
+    padding: 15px 25px;
+    background-color: rgb(177, 77, 52);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.learn {
+    margin-bottom: 60px;
+}
+
+.skills-clip {
+    width: 100vw;
+    height: 30vh;
+    background-color: #181818;
+    background: linear-gradient(
+        0deg,
+        rgba(84, 84, 84, 1) 0%,
+        rgba(24, 24, 24, 1) 100%
+    );
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.x {
+    transform: rotateY(180deg);
+}
+
+.title2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.skills {
+    height: 200vh;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.big-desc h2 {
+    color: black;
+    border-left: 10px solid #b14d34;
+    padding: 0px 10px 0px 60px;
+}
+.big-desc p {
+    color: rgb(158, 158, 158);
+    border-left: 10px solid #b14d34;
+    padding: 0px 70px 0px 60px;
+}
+
+.big-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-pic img:hover {
+    transform: scale(1.15);
+}
+
+.big-pic img {
+    transition: transform 0.5s ease;
+    transform-origin: 350px 0px;
+}
+
+.big-proj {
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    height: 41vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.big-pic {
+    background: #161616;
+    height: 100%;
+    min-width: 60%;
+    max-width: 60%;
+    overflow: hidden;
+}
+
+.small-proj {
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.small1 {
+    min-width: 30vw;
+    max-width: 30vw;
+    overflow: hidden;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p {
+    width: 25vw;
+    padding-left: 50px;
+    color: rgb(158, 158, 158);
+    padding-bottom: 20px;
+}
+
+.border {
+    border-bottom: 4px solid #4b241a;
+    width: 40px;
+    padding: 12px 60px;
+}
+
+.small2 {
+    height: 40vh;
+    min-width: 30vw;
+    max-width: 30vw;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.margin-bottom {
+    margin-bottom: 60px;
+}
+
+.wow {
+    padding-right: 60px;
+    width: 160px;
+}
+.h4 {
+    text-align: end;
+    width: 18vw;
+    padding-left: 50px;
+}
+.h2 {
+    padding-left: 50px;
+}
+.small3 {
+    height: 40vh;
+    min-width: 30vw;
+    max-width: 30vw;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.small1 img:hover {
+    transform: scale(1.15);
+}
+
+.small1 img {
+    transition: transform 0.5s ease;
+}
+
+.real-skills {
+    width: 100vw;
+    background-color: #fff;
+    padding-bottom: 100px;
+
+}
+
+.about {
+    background-color: #fff;
+
+}
+
+.about-title {
+
+}
