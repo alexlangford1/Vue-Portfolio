@@ -12,6 +12,7 @@
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
+    "vue-chartjs": "^3.4.2",
     "vue-scroll": "^2.1.12"
   },
   "devDependencies": {

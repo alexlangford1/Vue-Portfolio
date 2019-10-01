@@ -1,8 +1,11 @@
 <template>
-  <section>
-    <div class="tab"></div>
-    <div class="foot"></div>
-  </section>
+    <a href="#home">
+      <div class="foot">
+        <div class="tab">
+          <i class="fas fa-chevron-up"></i>
+        </div>
+      </div>
+    </a>
 </template>
 
 <script>
@@ -21,17 +24,30 @@ export default {
     rgba(84, 84, 84, 1) 0%,
     rgba(24, 24, 24, 1) 100%
   );
-  z-index: 10;
+  z-index: 100;
 }
 
 .tab {
   width: 100px;
-  height: 100px;
+  height: 36px;
   background-color: black;
-  border-radius: 50%;
+  border-top-right-radius: 75px;
+  border-top-left-radius: 75px;
   position: relative;
   top: -35px;
   left: calc(50vw - 50px);
-  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(84, 84, 84, 1) 0%,
+    rgba(84, 84, 84, 1) 40%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  transition: 0.1s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 </style>

@@ -38,16 +38,16 @@ export default {
       if (position.scrollTop < 722) {
         (this.isHome = true), (this.isProject = false);
       }
-      if (position.scrollTop > 722 && position.scrollTop < 1865) {
+      if (position.scrollTop > 722 && position.scrollTop < 1700) {
         (this.isHome = false), (this.isProject = true), (this.isSkills = false);
       }
 
-      if (position.scrollTop > 1866 && position.scrollTop < 2865) {
-        (this.isProject = false), (this.isSkills = true);
+      if (position.scrollTop > 1701 && position.scrollTop < 2365) {
+        (this.isProject = false), (this.isSkills = true) (this.isAbout = false);
       }
 
-      if (position.scrollTop > 722 && position.scrollTop < 1865) {
-        (this.isHome = false), (this.isProject = true);
+      if (position.scrollTop > 2366 && position.scrollTop < 3865) {
+        (this.isSkills = false), (this.isAbout = true);
       }
 
       if (position.scrollTop > 722 && position.scrollTop < 1865) {

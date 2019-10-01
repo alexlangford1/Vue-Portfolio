@@ -4,8 +4,8 @@
       <a href="#home" :class="{ active: isActive }">HOME</a>
       <a href="#projects" :class="{ active: isProject }">PROJECTS</a>
       <a href="#skills" :class="{ active: isSkills }">SKILLS</a>
-      <a href="#about" :class="{ active: isActive }">ABOUT</a>
-      <a href="#contact" @click="isHome = false">CONTACT</a>
+      <a href="#about" :class="{ active: isAbout }">ABOUT</a>
+      <a href="#contact" :class="{ active: isContact }">CONTACT</a>
     </ul>
   </div>
 </template>
