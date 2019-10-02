@@ -205,7 +205,10 @@
           </svg>
         </div>
       </div>
-      <div class="border"></div>
+      <div class="border1"></div>
+    </div>
+    <div class="contact" id="contact"  :style="{'background-image': 'url(' + require('../assets/mouintain.jpg') + ')'}">
+      
     </div>
     <Footer />
   </section>
