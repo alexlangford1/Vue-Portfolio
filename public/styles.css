@@ -246,19 +246,16 @@ a {
     border-bottom: 1px solid rgb(82, 81, 81);
     width: 70vw;
     padding: 0;
-
 }
 
 .flex {
     display: flex;
     justify-content: center;
-    
 }
 
 .svg {
     position: relative;
     bottom: -6px;
-
 }
 
 .about-me {
@@ -268,28 +265,100 @@ a {
     width: 30vw;
     max-width: 30vw;
     margin-bottom: 20px;
-
 }
 
 .sub-about {
     color: #585858;
     font-size: 2rem;
     margin-bottom: 20px;
-
 }
 .p-about {
     color: #666565;
     font-size: 1.2rem;
     line-height: 2rem;
-
 }
-
-
-
 
 .contact {
     height: 40vh;
     width: 100vw;
     background-position: center;
     background-size: cover;
+}
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 0.5rem;
+    }
+    .big-proj {
+        flex-direction: column;
+        width: 90vw;
+        margin-top: 150px;
+
+    }
+    .skills {
+        height: auto;
+    }
+    .big-desc p {
+        padding: 0;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .big-pic {
+        min-width: 100%;
+        min-height: 25vh;
+    }
+    .big-desc h2 {
+        padding: 10px 0px;
+        border: none;
+    }
+    .small-proj {
+        flex-direction: column;
+        min-width: 90vw;
+        max-width: 90vw;
+        height: auto;
+    }
+    .small1 {
+        min-width: 90vw;
+        max-width: 90vw;
+        height: auto;
+
+    }
+    .p {
+        width: 90vw;
+        padding: 0px;
+        color: rgb(158, 158, 158);
+        padding-bottom: 20px;
+    }
+    .h2 {
+        padding-left: 0px;
+    }
+    .small2,
+    .small3 {
+        min-width: 90vw;
+        margin-bottom: 30px;
+        text-align: center;
+        height: 25vh;
+        align-items: center;
+    }
+    .h4 {
+        text-align: center;
+        padding: 0;
+        width: auto;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
+    .sub-about {
+        margin-bottom: 80px;
+        padding-left: 10px;
+    }
+    .about-me {
+        padding-left: 10px;
+    }
+    .p-about {
+        
+    }
 }

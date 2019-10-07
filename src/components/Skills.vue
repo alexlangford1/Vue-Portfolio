@@ -44,7 +44,7 @@
       </svg>
       <span>NodeJS</span>
     </div>
-    
+
     <div class="logo">
       <svg viewBox="0 0 128 128">
         <path
@@ -157,7 +157,6 @@ export default {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .logo {
@@ -174,6 +173,12 @@ export default {
   @media (max-width: 600px) {
     height: 100px;
     width: 100px;
+  }
+  @media (max-width: 450px) {
+    height: 60px;
+    width: 60px;
+    margin: 30px;
+
   }
 }
 </style>

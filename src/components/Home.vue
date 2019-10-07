@@ -8,7 +8,7 @@
     <div class="main-title" id="home">
       <div class="section">
         <h1 class="title">ALEX LANGFORD</h1>
-        <h4 class="subtitle">FULL TIME BADASS. PART TIME GOLFER</h4>
+        <h4 class="subtitle">PART TIME GOLFER, FULL TIME BADASS. </h4>
         <a class="btn" href="#projects">EXPLORE</a>
       </div>
       <a class="section learn" href="#projects">
@@ -49,7 +49,7 @@
           </div>
         </div>
       </div>
-      <div class="small-proj margin-bottom">
+      <div class="small-proj margin-bottom reverse">
         <div class="small3">
           <h2 class="h4 wow">MORE COMING SOON!</h2>
           <div class="p wow">
@@ -207,13 +207,11 @@
       </div>
       <div class="border1"></div>
     </div>
-    <div class="contact" id="contact"  :style="{'background-image': 'url(' + require('../assets/mouintain.jpg') + ')'}">
-      
-    </div>
+    
     <Footer />
   </section>
 </template>
-
+ 
 <script>
 const img = require("../assets/banner.jpg");
 import Skills from "./Skills";
